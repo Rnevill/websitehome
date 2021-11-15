@@ -1,0 +1,118 @@
+body{
+	height: 100%;
+}
+.overlay{
+	text-align: center;
+	position: relative;
+}
+.will{
+	font: bolder 12vw "Arial";
+	font-size: 120pt;
+
+}
+.backdrop{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*height: 900px;*/
+	width: 80vw;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*bottom: 200px;*/
+	color:whitesmoke;
+	mix-blend-mode: hard-light;
+	background-color: black;
+	opacity: 50%;
+	
+}
+.parallax{
+	background-image: url("../img/Landing_Studio1_KellyDewitt.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content{
+height: 200px;
+background-color: dodgerblue;
+font-size: 120pt;
+text-align: center;
+color: dodgerblue;
+-webkit-text-stroke-color: whitesmoke;
+-webkit-text-stroke-width: 2px;
+transition: color 1s;
+}
+.content:hover {
+	color: whitesmoke;
+}
+.p2{
+background-image: url("../img/info.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.c2{
+height: 200px;
+background-color: indianred;
+font-size: 120pt;
+top: 300px;	
+text-align: center;
+color: indianred;
+-webkit-text-stroke-color: whitesmoke;
+-webkit-text-stroke-width: 2px;
+transition: color 1s;
+}
+.c2:hover{
+	color: whitesmoke;
+}
+.p3{
+	background-image: url("../img/gal.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c3{height: 200px;
+background-color: mediumseagreen;
+font-size: 120pt;
+top: 300px;	
+text-align: center;
+color: mediumseagreen;
+-webkit-text-stroke-color: whitesmoke;
+-webkit-text-stroke-width: 2px;
+transition: color 1s;
+}
+.c3:hover{
+	color: whitesmoke;
+}
+.p4{background-image: url("../img/con.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

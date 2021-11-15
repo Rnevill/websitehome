@@ -1,0 +1,79 @@
+img{
+	position: absolute;
+	left: 400px;
+	top: 130px;
+	width: 500px;
+}
+body{
+}
+p{position: absolute;
+	left: 950px;
+	top: 250px;
+	font-size: 14pt;
+}
+strong{
+	font-size: 18pt;
+}
+.home{
+font-size: 40pt;
+text-align: right;
+-webkit-text-stroke-color: darkgoldenrod;
+-webkit-text-stroke-width: 1px;
+transition: color 1s;
+color: whitesmoke;
+position: absolute;
+right: 450px;
+}
+.home:hover {
+	color: darkgoldenrod;
+}
+.gallery{
+font-size: 40pt;
+text-align: right;
+-webkit-text-stroke-color: indianred;
+-webkit-text-stroke-width: 1px;
+transition: color 1s;
+color: whitesmoke;
+position: absolute;
+right: 250px;
+}
+.gallery:hover{color: indianred;
+}
+.cont{
+	font-size: 40pt;
+	text-align: right;
+	-webkit-text-stroke-color: mediumseagreen;
+	-webkit-text-stroke-width: 1px;
+	transition: color 1s;
+	color: whitesmoke;
+	position: absolute;
+	right: 50px;
+}
+.cont:hover{
+	color: mediumseagreen;
+}
+.Will{
+	font-size: 80pt;
+	font-weight: bold;
+	color: whitesmoke;
+	text-align: left;
+	position: absolute;
+	left: 120px;
+	top: 200px;
+	z-index: 1;
+}
+.block{
+	background-color: dodgerblue;
+	width: 300px;
+	height: 100%;
+	position: absolute;
+
+}
+.ul{
+	background-color: dodgerblue;
+	width: 600px;
+	height: 20px;
+	position: absolute;
+	left: 1070px;
+	top: 75px;
+}

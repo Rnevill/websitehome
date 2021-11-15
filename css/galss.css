@@ -1,0 +1,109 @@
+body{
+
+}
+.home{
+font-size: 40pt;
+text-align: right;
+-webkit-text-stroke-color: darkgoldenrod;
+-webkit-text-stroke-width: 1px;
+transition: color 1s;
+color: whitesmoke;
+position: absolute;
+right: 450px;
+}
+.home:hover {
+	color: darkgoldenrod;
+}
+.info{
+font-size: 40pt;
+text-align: right;
+-webkit-text-stroke-color: dodgerblue;
+-webkit-text-stroke-width: 1px;
+transition: color 1s;
+color: whitesmoke;
+position: absolute;
+right: 280px;
+}
+.info:hover{color: dodgerblue;
+}
+.cont{
+	font-size: 40pt;
+	text-align: right;
+	-webkit-text-stroke-color: mediumseagreen;
+	-webkit-text-stroke-width: 1px;
+	transition: color 1s;
+	color: whitesmoke;
+	position: absolute;
+	right: 50px;
+}
+.cont:hover{
+	color: mediumseagreen;
+}
+.Will{
+	font-size: 80pt;
+	font-weight: bold;
+	color: whitesmoke;
+	text-align: left;
+	position: fixed;
+	left: 120px;
+	top: 30;
+
+	z-index: 1;
+}
+.block{
+	background-color: indianred;
+	width: 300px;
+	height: 100%;
+	position: fixed;
+
+}
+.arta{
+	position: absolute;
+	left: 320px;
+	width: 100px;
+	height: auto;
+	top: 200px;
+}
+.artd{position: absolute;
+	left: 860px;
+	top: 200px;
+	height: auto;
+	width: 200px;
+}
+.arte{position: absolute;
+	left: 860px;
+	top: 640px;
+	height: auto;
+	width: 200px;
+}
+.arth{position: absolute;
+	left: 360px;
+	top: 870px;
+	height: auto;
+	width: 200px;
+	}
+	.artf{position: absolute;
+	left: 470px;
+	top: 1200px;
+	height: auto;
+	width: 500px;
+}
+.ul{
+	background-color: indianred;
+	width: 600px;
+	height: 20px;
+	position: absolute;
+	left: 1070px;
+	top: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
